@@ -35,7 +35,7 @@ npm run build
   "mcpServers": {
     "code_execution": {
       "command": "node",
-      "args": ["/ABSOLUTE/PATH/TO/PARENT/FOLDER/code_execution/build/index.js"]
+      "args": ["/ABSOLUTE/PATH/TO/PARENT/FOLDER/code-execution-mcp/build/index.js"]
     }
   }
 }
