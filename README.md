@@ -8,13 +8,13 @@ The server uses the [piston](https://github.com/engineer-man/piston?tab=readme-o
 
 Information on MCP servers and how to implement them can be found [here](https://modelcontextprotocol.io/). 
 
-## Usage
+## Installation
 
 This MCP was used and tested with [Claude for Desktop](https://claude.ai/download), but it should work for other LLMs and AI tools. This guide will only cover Claude Desktop though.
 
-1) Clone this github repo.
+1) Clone the repo
 
-2) Run
+2) Install the dependencies
 
 ```
 npm i
@@ -45,7 +45,7 @@ npm run build
 
 There should be a slider icon under the prompt bar. When clicked, the code_exection MCP should be toggleable.
 
-7) That's it! 
+## Usage
 
 Try using the MCP with prompts like
 
