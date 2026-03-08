@@ -2,7 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
-const PISTON_API = "https://emkc.org/api/v2/piston/execute";
+const PISTON_API = process.env.PISTON_API ?? "http://localhost:2000/api/v2/execute";
 
 const server = new McpServer({
   name: "code_execution",
